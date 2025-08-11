@@ -8,9 +8,7 @@
   <p>I'm currently exploring the worlds of Embedded Systems, AI Robotics, and Linux, and I love building cool things.</p>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/common/style/lines/line.svg" width="100%" alt="divider">
-</p>
+---
 
 <table>
 <tr>
@@ -91,15 +89,14 @@
 </td>
 </tr>
 </table>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/common/style/lines/line.svg" width="100%" alt="divider">
-</p>
+
+---
 
 <p align="center">
   <a href="mailto:102450592zzy@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  </p>
+</p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/12sqawdwq/12sqawdwq/main/dist/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="contribution snake" />
 </p>
