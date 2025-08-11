@@ -115,58 +115,6 @@
 
 </p>
 
-<br>
-
-<h5 align="center">
-  <code><a href="https://www.linkedin.com/in/wyattzhang/" title="LinkedIn Profile"><img width="22" src="images/linkedin.svg"> LinkedIn</a></code>
-  <code><a href="https://www.instagram.com/wyattzhang/" title="Instagram Profile"><img width="22" src="images/instagram.svg"> Instagram</a></code>
-</h5>
-<br>
-<p align="center">
-  Hi, I'm Wyatt Zhang, Research Assistant & Software Developer
-  <br>
-  <br>
-  🔬 I'm currently studying for my bachelor in Rutegrs University
-  <br>
-  💻 I love do some research in Embodied AI and maybe some software development
-  <br>
-  📫 How to reach me: <a href="mailto: wyatt.zhang1321@gmail.com">wyatt.zhang1321@gmail.com</a>
-</p>
-
-<hr>
-<h2 align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</h2>
-<br>
-<p align="center">
-<code><img title="C" height="25" src="images/c.svg"></code>
- <code><img title="C++" height="25" src="images/cpp.svg"></code>
- <code><img title="Python" height="25" src="images/python-original.svg"></code>
- <code><img title="Javascript" height="25" src="images/javascript.svg"></code>
- <code><img title="Java" height="25" src="images/java-original.svg"></code>
- <code><img title="TypeScript" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"></code>
- <code><img title="Problem Solving" height="25" src="images/problemSolving.png"></code>
- <code><img title="PyTorch" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg"></code>
- <code><img title="scikit-learn" height="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"></code>
- <code><img title="Pandas" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg"></code>
- <code><img title="NumPy" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg"></code>
- <code><img title="Jupyter" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg"></code>
- <code><img title="FastAPI" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg"></code>
- <code><img title="PostgreSQL" height="25" src="images/postgresql.svg"></code>
- <code><img title="MySQL" height="25" src="images/mysql.svg"></code>
- <code><img title="React" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></code>
- <code><img title="Vue.js" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"></code>
- <code><img title="Gradio" height="25" src="https://avatars.githubusercontent.com/u/51063788?s=200&v=4"></code>
- <code><img title="Git" height="25" src="images/git-original.svg"></code>
- <code><img title="GitHub" height="25" src="images/github.svg"></code>
- <code><img title="Docker" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"></code>
- <code><img title="Linux" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"></code>
- <code><img title="ROS2" height="25" src="https://docs.ros.org/svgs/logo-header.svg"></code>
- <code><img title="Visual Studio Code" height="25" src="images/vscode.png"></code>
- <code><img title="npm" height="25" src="images/npm.svg"></code>
- <code><img title="JSON" height="25" src="images/json.svg"></code>
- <code><img title="Hugging Face" height="25" src="https://huggingface.co/front/assets/huggingface_logo.svg"></code>
-</p>
-<hr>
-
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <p align=center>
@@ -189,7 +137,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WyattZZZZ&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<hr>
+
+<br>
+
 
 
 <p align="center">
