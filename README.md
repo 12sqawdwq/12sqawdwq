@@ -1,16 +1,21 @@
 <style>
+/* ====== 诊断样式：如果这个红色边框没有出现，说明样式表未加载 ====== */
+.profile-container {
+  /* border: 2px solid red;  <-- 修复成功后，您可以删除这一行来移除红色边框 */
+}
+
 /* ====== 1. 全局布局：使用现代化的Flexbox进行两栏布局 ====== */
 .profile-container {
   display: flex;
-  flex-wrap: wrap; /* 在小屏幕上会自动换行，实现响应式 */
-  gap: 20px;     /* 设置左右两栏的间距 */
+  flex-wrap: wrap; 
+  gap: 20px;
 }
 .left-column {
-  flex: 1; /* 占据1份空间 */
+  flex: 1;
   min-width: 320px;
 }
 .right-column {
-  flex: 2; /* 占据2份空间，更宽一些 */
+  flex: 2;
   min-width: 350px;
 }
 
@@ -29,7 +34,7 @@
 .project-card {
   display: block;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  opacity: 0;
+  opacity: 0; /* 动画开始前透明 */
   animation: card-entry 0.6s ease-out forwards;
 }
 
@@ -39,10 +44,10 @@
 }
 
 /* 为项目卡片设置错开的入场动画延迟 */
-.projects-grid .project-card:nth-child(1) { animation-delay: 0.1s; }
-.projects-grid .project-card:nth-child(2) { animation-delay: 0.2s; }
-.projects-grid .project-card:nth-child(3) { animation-delay: 0.3s; }
-.projects-grid .project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(1) { animation-delay: 0.2s; }
+.project-card:nth-child(2) { animation-delay: 0.3s; }
+.project-card:nth-child(3) { animation-delay: 0.4s; }
+.project-card:nth-child(4) { animation-delay: 0.5s; }
 </style>
 
 <div align="center">
@@ -84,8 +89,8 @@
     <details>
       <summary><strong>&nbsp; 🇨🇳 中文</strong></summary>
       <p align="left" style="line-height: 1.8;">
-        &nbsp; - 🔭 我目前正致力于：<b>双足轮腿机器人步态算法、嵌入式+AI 机器人系统、边缘计算物联网(IoT)</b>...<br>
-        &nbsp; - 🌱 我正在深入学习：更高级的<b>机器人路径规划算法</b>与复杂的<b>物联网控制方案</b>...<br>
+        &nbsp; - 🔭 我目前正致力于：<b>双足轮腿机器人步态算法、嵌入式+AI 机器人系统...</b><br>
+        &nbsp; - 🌱 我正在深入学习：更高级的<b>机器人路径规划算法</b>与复杂的<b>物联网控制方案...</b><br>
         &nbsp; - 👯 我期望能在<b>智能机器人系统、嵌入式物联网</b>或<b>计算机视觉</b>相关的开源项目中进行协作。<br>
         &nbsp; - 🤔 我在为<b>无人驾驶系统寻找最优路径规划方案</b>和<b>实现高可靠性的多设备无线组网通信</b>方面寻求帮助。<br>
         &nbsp; - 💬 欢迎与我交流任何关于<b>STM32、ROS2、OpenMV/OpenCV</b>或<b>通信协议</b>的问题。<br>
