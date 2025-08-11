@@ -41,28 +41,32 @@
 </details>
 <br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-✨%20My%20Projects%20%2F%20我的项目-000000?style=for-the-badge&logo=GitHub&logoColor=cyan" alt="My Projects Header"/>
-</p>
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+</style>
 
 <p align="center">
-  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
-  </a>
-  
-  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />  
-  </a>
-  
-  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
-  </a>
-  
-  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
-  </a>
-
+  <img src="https://img.shields.io/badge/-✨%20My%20Projects%20%2F%20我的项目-000000?style=for-the-badge&logo=GitHub&logoColor=cyan" alt="My Projects Header"/>
 </p>
+
+<div class="projects-grid">
+  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
+  </a>
+  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />
+  </a>
+  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
+  </a>
+  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
+  </a>
+</div>
 
 </td>
 <td valign="top" width="35%">
