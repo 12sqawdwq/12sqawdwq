@@ -47,6 +47,42 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
 }
+
+/* 定义入场动画 */
+@keyframes card-entry {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 卡片基础样式和动效设置 */
+.project-card {
+  display: block;
+  /* 为鼠标悬停效果添加平滑过渡 */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+  /* 设置入场动画 */
+  opacity: 0; /* 默认隐藏 */
+  animation: card-entry 0.6s ease-out forwards;
+}
+
+/* 鼠标悬停时的交互效果 */
+.project-card:hover {
+  transform: scale(1.05) translateY(-5px); /* 放大并向上移动 */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* 为每个卡片设置错开的入场动画延迟 */
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+/* 如果您有更多项目，可以继续添加: .project-card:nth-child(5) { animation-delay: 0.5s; } ... */
 </style>
 
 <p align="center">
@@ -54,16 +90,16 @@
 </p>
 
 <div class="projects-grid">
-  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank">
+  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
   </a>
-  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank">
+  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />
   </a>
-  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
+  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
   </a>
-  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
+  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
   </a>
 </div>
