@@ -68,5 +68,5 @@ STM32嵌入式开发 、ROS2机器人系统 、OpenMV/OpenCV嵌入式视觉应�
   </p>
 
 <p align="center">
-  <img src="https://github.com/12sqawdwq/12sqawdwq/raw/output/github-contribution-grid-snake.svg" alt="contribution snake" />
+  <img src="https://raw.githubusercontent.com/12sqawdwq/12sqawdwq/main/dist/github-contribution-grid-snake.svg" alt="contribution snake" />
 </p>
