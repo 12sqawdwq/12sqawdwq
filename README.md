@@ -1,9 +1,109 @@
+<style>
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes flyIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.fly-in {
+  animation: flyIn 1s ease-out forwards;
+}
+
+.blur-in {
+  animation: blurIn 1.2s ease-out forwards;
+}
+
+.animated-gradient-text {
+  background: linear-gradient(90deg, #36BCF7, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+/* Static Typing Effect */
+.typing-effect {
+  display: inline-block;
+  overflow: hidden; 
+  border-right: .15em solid orange; /* The typewriter cursor */
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .10em;
+  animation: 
+    typing 3s steps(30, end) forwards,
+    blink-caret .75s step-end infinite;
+}
+
+
+/* Project Card Grid and Hover Effect */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  padding: 10px;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+</style>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Victor;Welcome+to+my+GitHub+Profile!)](https://git.io/typing-svg)
 
 <div align="center">
-  <h1>Hi there, I'm Victor 👋</h1>
-  <h3>A passionate developer on a journey of creation and discovery.</h3>
-  <p>I'm currently exploring the worlds of Embedded Systems, AI Robotics, and Linux, and I love building cool things.</p>
+  <h1 class="animated-gradient-text">Hi there, I'm Victor 👋</h1>
+  <h3 class="fly-in" style="animation-delay: 0.5s;">A passionate developer on a journey of creation and discovery.</h3>
+  <p class="fade-in" style="animation-delay: 1s;">I'm currently exploring the worlds of Embedded Systems, AI Robotics, and Linux, and I love building cool things.</p>
 </div>
 
 ---
@@ -45,20 +145,20 @@
   <img src="https://img.shields.io/badge/-✨%20My%20Projects%20%2F%20我的项目-000000?style=for-the-badge&logo=GitHub&logoColor=cyan" alt="My Projects Header"/>
 </p>
 
-<p align="center">
-  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank">
+<div class="projects-grid">
+  <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
   </a>
-  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank">
+  <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />
   </a>
-  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
+  <a href="https://github.com/12sqawdwq/Augmentation" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
   </a>
-  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
+  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
   </a>
-</p>
+</div>
 
 </td>
 <td valign="top" width="35%">
@@ -73,10 +173,10 @@
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-🏆%20GitHub%20Trophies-000000?style=for-the-badge&logo=Trophy&logoColor=gold" alt="GitHub Trophies Header"/>
+  <img src="https://img.shields.io/badge/-🏆%20GitHub%20Trophies-000000?style=for-the-badge&logo=Trophy&logoColor=gold" alt="GitHub Trophies Header"/>
 </p>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=12sqawdwq&theme=synthwave&column=4&margin-w=15&margin-h=15&no-frame=true" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=12sqawdwq&theme=synthwave&column=4&margin-w=15&margin-h=15&no-frame=true" alt="GitHub Trophies"/>
 </p>
 <br>
 
@@ -92,7 +192,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=12sqawdwq&theme=synthwave&hide_border=true" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=12sqawdwq&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=12sqawdwq&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
 </p>
 
 </td>
