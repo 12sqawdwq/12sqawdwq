@@ -2,11 +2,17 @@
 name: Generate Snake Animation
 
 on:
-  # 1. 自动触发：每天午夜执行一次
+  # 自动触发：每天午夜执行一次
   schedule:
     - cron: "0 0 * * *"
-  # 2. 手动触发：允许你在 Actions 页面手动运行此工作流
+  # 手动触发：允许你在 Actions 页面手动运行此工作流
   workflow_dispatch:
+
+# ****************************************************
+# ** 新增部分：为工作流授予写入权限 **
+permissions:
+  contents: write
+# ****************************************************
 
 jobs:
   build:
@@ -21,7 +27,7 @@ jobs:
         with:
           # 你的GitHub用户名
           github_user_name: 12sqawdwq
-          # 指定输出文件，可以同时生成多种配色方案
+          # 指定输出文件
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
