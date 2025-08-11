@@ -82,7 +82,6 @@
 .project-card:nth-child(2) { animation-delay: 0.2s; }
 .project-card:nth-child(3) { animation-delay: 0.3s; }
 .project-card:nth-child(4) { animation-delay: 0.4s; }
-/* 如果您有更多项目，可以继续添加: .project-card:nth-child(5) { animation-delay: 0.5s; } ... */
 </style>
 
 <p align="center">
@@ -103,7 +102,6 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
   </a>
 </div>
-
 </td>
 <td valign="top" width="35%">
 
