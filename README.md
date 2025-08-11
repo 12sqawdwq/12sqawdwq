@@ -77,43 +77,35 @@
   &nbsp; - 📫 How to reach me: <b>102450592zzy@gmail.com</b>
 
 </p>
+
 </details>
 <br>
 <p align="center">
   <img src="https://img.shields.io/badge/-✨%20My%20Projects%20%2F%20我的项目-000000?style=for-the-badge&logo=GitHub&logoColor=cyan" alt="My Projects Header"/>
 </p>
 <div class="projects-grid">
+
+
+  
   <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
   </a>
+  
   <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />
   </a>
+  
   <a href="https://github.com/12sqawdwq/Augmentation" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
   </a>
+  
   <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank" class="project-card">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
   </a>
+  
 </div>
 </td>
 <td valign="top" width="50%">
-
-
-
-<p align="center">
-
-  <img src="https://img.shields.io/badge/-🛠️%20Tech%20Stack-000000?style=for-the-badge&logo=Power-Automate&logoColor=lime" alt="Tech Stack Header"/>
-
-</p>
-
-
-
-<p align="center">
-
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,ros,qt,js,react,nodejs,docker,git,vscode&perline=4&theme=dark" alt="My Tech Stack"/>
-
-</p>
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
@@ -136,6 +128,24 @@
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WyattZZZZ&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
+
+
+
+<p align="center">
+
+  <img src="https://img.shields.io/badge/-🛠️%20Tech%20Stack-000000?style=for-the-badge&logo=Power-Automate&logoColor=lime" alt="Tech Stack Header"/>
+
+</p>
+
+
+
+<p align="center">
+
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,ros,qt,js,react,nodejs,docker,git,vscode&perline=4&theme=dark" alt="My Tech Stack"/>
+
+</p>
+
+
 
 
 <br>
