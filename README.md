@@ -60,6 +60,9 @@
   <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=tokyonight&description_lines_count=2" alt="Data Augmentation" />
   </a>
+  <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=tokyonight&description_lines_count=2" alt="DJI IMU" />
+  </a>
 </p>
 
 ---
