@@ -1,26 +1,41 @@
+# GitHub Action: 生成贪吃蛇贡献图
 name: Generate Snake Animation
 
 on:
+  # 1. 自动触发：每天午夜执行一次
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
+    - cron: "0 0 * * *"
+  # 2. 手动触发：允许你在 Actions 页面手动运行此工作流
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      # 步骤一：检出你的仓库代码
+      - uses: actions/checkout@v3
+
+      # 步骤二：生成贪吃蛇动画文件
       - uses: Platane/snk@v3
-  id: snake-gif
-  with:
-    github_user_name: 12sqawdwq
-    outputs: |
-      dist/github-contribution-grid-snake.svg
-      dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        id: snake-gif
+        with:
+          # 你的GitHub用户名
+          github_user_name: 12sqawdwq
+          # 指定输出文件，可以同时生成多种配色方案
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 步骤三：将生成的文件推送到仓库
       - name: Push to repo
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add dist
-          git commit -m "Generate snake animation"
-          git push
+          # 如果没有变化则不提交，防止不必要的commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Generate snake animation"
+            git push
+          else
+            echo "No changes to commit"
+          fi
