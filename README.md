@@ -1,5 +1,7 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Victor;Welcome+to+my+GitHub+Profile!)](https://git.io/typing-svg)
+
 <p align="center">
-  <img src="https://i.imgur.com/gCe0T25.gif" alt="Hi, I'm Victor">
+  <img src="https://tenor.com/view/victor-gif-2559134115684673355" alt="Hi, I'm Victor">
 </p>
 
 <div align="center">
