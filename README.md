@@ -1,53 +1,53 @@
 <style>
-/* ====== 诊断样式：如果这个红色边框没有出现，说明样式表未加载 ====== */
-.profile-container {
-  /* border: 2px solid red;  <-- 修复成功后，您可以删除这一行来移除红色边框 */
-}
-
-/* ====== 1. 全局布局：使用现代化的Flexbox进行两栏布局 ====== */
-.profile-container {
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 20px;
-}
-.left-column {
-  flex: 1;
-  min-width: 320px;
-}
-.right-column {
-  flex: 2;
-  min-width: 350px;
-}
-
-/* ====== 2. 项目卡片网格与动画 ====== */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-}
-
-@keyframes card-entry {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.project-card {
-  display: block;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  opacity: 0; /* 动画开始前透明 */
-  animation: card-entry 0.6s ease-out forwards;
-}
-
-.project-card:hover {
-  transform: scale(1.05) translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-/* 为项目卡片设置错开的入场动画延迟 */
-.project-card:nth-child(1) { animation-delay: 0.2s; }
-.project-card:nth-child(2) { animation-delay: 0.3s; }
-.project-card:nth-child(3) { animation-delay: 0.4s; }
-.project-card:nth-child(4) { animation-delay: 0.5s; }
+  /* ====== 诊断样式：如果这个红色边框没有出现，说明样式表未加载 ====== */
+  .profile-container {
+    /* border: 2px solid red;  <-- 修复成功后，您可以删除这一行来移除红色边框 */
+  }
+  
+  /* ====== 1. 全局布局：使用现代化的Flexbox进行两栏布局 ====== */
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+  }
+  .left-column {
+    flex: 1;
+    min-width: 320px;
+  }
+  .right-column {
+    flex: 2;
+    min-width: 350px;
+  }
+  
+  /* ====== 2. 项目卡片网格与动画 ====== */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  @keyframes card-entry {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .project-card {
+    display: block;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    opacity: 0; /* 动画开始前透明 */
+    animation: card-entry 0.6s ease-out forwards;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 为项目卡片设置错开的入场动画延迟 */
+  .project-card:nth-child(1) { animation-delay: 0.2s; }
+  .project-card:nth-child(2) { animation-delay: 0.3s; }
+  .project-card:nth-child(3) { animation-delay: 0.4s; }
+  .project-card:nth-child(4) { animation-delay: 0.5s; }
 </style>
 
 <div align="center">
