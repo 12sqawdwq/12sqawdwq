@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/12sqawdwq/12sqawdwq/main/assets/banner.gif" alt="Hi, I'm Victor">
+  <img src="https://i.imgur.com/gCe0T25.gif" alt="Hi, I'm Victor">
 </p>
 
 <div align="center">
@@ -8,15 +8,17 @@
   <p>I'm currently exploring the worlds of Embedded Systems, AI Robotics, and Linux, and I love building cool things.</p>
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/common/style/lines/line.svg" width="100%" alt="divider">
+</p>
+
 <table>
 <tr>
 <td valign="top" width="65%">
 
-<div align="center">
-<pre>╔═════════════════════════════════════╗
-║   🚀 About Me / 关于我             ║
-╚═════════════════════════════════════╝</pre>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/-🚀%20About%20Me%20%2F%20关于我-000000?style=for-the-badge&logo=About.me&logoColor=magenta" alt="About Me Header"/>
+</p>
 
 <details>
 <summary><strong>&nbsp; 🇨🇳 中文</strong></summary>
@@ -43,70 +45,61 @@
 </details>
 <br>
 
-<div align="center">
-<pre>╔═════════════════════════════════════╗
-║   ✨ My Projects / 我的项目          ║
-╚═════════════════════════════════════╝</pre>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/-✨%20My%20Projects%20%2F%20我的项目-000000?style=for-the-badge&logo=GitHub&logoColor=cyan" alt="My Projects Header"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/12sqawdwq/fractal_flower" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=tokyonight&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=fractal_flower&theme=synthwave&description_lines_count=2" alt="Fractal Flower (Linux ASCII Art)" />
   </a>
   <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=tokyonight&description_lines_count=2" alt="PI-CAI TransUnet" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=PI-CAI_TransUnet&theme=synthwave&description_lines_count=2" alt="PI-CAI TransUnet" />
   </a>
   <a href="https://github.com/12sqawdwq/Augmentation" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=tokyonight&description_lines_count=2" alt="Data Augmentation" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=Augmentation&theme=synthwave&description_lines_count=2" alt="Data Augmentation" />
   </a>
   <a href="https://github.com/12sqawdwq/DJI-dev-board-c-imu" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=tokyonight&description_lines_count=2" alt="DJI IMU" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=12sqawdwq&repo=DJI-dev-board-c-imu&theme=synthwave&description_lines_count=2" alt="DJI IMU" />
   </a>
 </p>
 
 </td>
 <td valign="top" width="35%">
 
-<div align="center">
-<pre>╔══════════════════════╗
-║ 🛠️ Tech Stack       ║
-╚══════════════════════╝</pre>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/-🛠️%20Tech%20Stack-000000?style=for-the-badge&logo=Power-Automate&logoColor=lime" alt="Tech Stack Header"/>
+</p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,ros,qt,js,react,nodejs,docker,git,vscode&perline=4" alt="My Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,ros,qt,js,react,nodejs,docker,git,vscode&perline=4&theme=dark" alt="My Tech Stack"/>
 </p>
 <br>
 
-<div align="center">
-<pre>╔══════════════════════╗
-║ 📊 GitHub Stats    ║
-╚══════════════════════╝</pre>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/-📊%20GitHub%20Stats-000000?style=for-the-badge&logo=GitHub-Actions&logoColor=yellow" alt="GitHub Stats Header"/>
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=12sqawdwq&show_icons=true&theme=tokyonight&icon_color=79ff97&hide_border=true&count_private=true&rank_icon=github" alt="Victor's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=12sqawdwq&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Victor's Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=12sqawdwq&show_icons=true&theme=synthwave&icon_color=79ff97&hide_border=true&count_private=true&rank_icon=github" alt="Victor's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=12sqawdwq&layout=compact&theme=synthwave&hide_border=true&langs_count=8" alt="Victor's Top Languages" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=12sqawdwq&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=12sqawdwq&theme=synthwave&hide_border=true" alt="GitHub Streak" />
 </p>
 
 </td>
 </tr>
 </table>
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/common/style/lines/line.svg" width="100%" alt="divider">
+</p>
 
-### 🔗 Connect with Me / 联系我
 <p align="center">
   <a href="mailto:102450592zzy@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   </p>
-
-<div align="center">
-<pre>╔═════════════════════════════════════╗
-║ 🐍 My Contribution Snake 🐍         ║
-╚═════════════════════════════════════╝</pre>
-  <img src="https://raw.githubusercontent.com/12sqawdwq/12sqawdwq/main/dist/github-contribution-grid-snake.svg" alt="contribution snake" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/12sqawdwq/12sqawdwq/main/dist/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="contribution snake" />
+</p>
