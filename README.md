@@ -1,56 +1,77 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20there,%20I'm%20Victor%20👋&fontSize=50&fontAlignY=40&desc=A%20passionate%20developer%20on%20a%20journey%20of%20creation%20and%20discovery.&descAlignY=65&descSize=20" alt="Header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Hi%20there,%20I'm%20Victor%20👋&fontSize=50&fontAlignY=35&desc=Embedded%20Systems%20%7C%20AI%20Robotics%20%7C%20Linux&descAlignY=60&descSize=20&animation=fadeIn" alt="Header" width="100%"/>
 </div>
 
 <div align="center">
-  <p>I'm currently exploring the fascinating intersections of <b>Embedded Systems, AI Robotics, and Linux</b>.</p>
-  <p>My goal is to build cool things that hopefully don't become self-aware... just yet.</p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3399CC&center=true&vCenter=true&width=500&lines=Building+cool+things+that+won't+take+over+the+world...;Exploring+Embedded+Systems+%26+Robotics;Passionate+about+Linux+and+Open+Source" alt="Typing SVG" />
+  </a>
 </div>
 
 <br />
 
 <table width="100%" style="border: none;">
   <tr>
-    <td width="50%" valign="top" style="border: none;">
-      <h3 align="left">🚀 About Me / 关于我</h3>
-      <details>
-        <summary>🇬🇧 <b>English</b></summary>
+    <td width="55%" valign="top" style="border: none;">
+      <h3>👨‍💻 About Me</h3>
+      <p>I'm a developer exploring the intersection of hardware and intelligence.</p>
+      
+      <details open>
+        <summary>🇬🇧 <b>Brief Introduction</b></summary>
+        <br/>
         <ul>
-          <li>🔭 Wrestling with: <b>Gait algorithms for bipedal robots</b> & <b>Embedded+AI systems</b>.</li>
-          <li>🌱 Diving deep into: <b>Robot pathfinding algorithms</b> & <b>IoT control schemes</b>.</li>
-          <li>👯 Open to collaborate on: <b>Intelligent robotics, Embedded IoT, CV</b>.</li>
-          <li>🤔 Seeking wisdom on: <b>Optimal path planning</b> & <b>Wireless mesh networks</b>.</li>
-          <li>💬 Ask me about: <b>STM32, ROS2, OpenMV/OpenCV, Comms Protocols</b>.</li>
+          <li>🔭 <b>Working on:</b> Gait algorithms for bipedal robots & Embedded AI.</li>
+          <li>🌱 <b>Learning:</b> Robot pathfinding (SLAM) & IoT control schemes.</li>
+          <li>🤔 <b>Researching:</b> Optimal path planning & Wireless mesh networks.</li>
+          <li>💬 <b>Ask me about:</b> <br/><code>STM32</code> <code>ROS2</code> <code>OpenCV</code> <code>Comms Protocols</code></li>
         </ul>
       </details>
+
       <details>
-        <summary>🇨🇳 <b>中文</b></summary>
+        <summary>🇨🇳 <b>中文介绍 (点击展开)</b></summary>
+        <br/>
         <ul>
-          <li>🔭 致力于：<b>双足轮腿机器人步态算法</b> 及 <b>嵌入式+AI 机器人系统</b>。</li>
-          <li>🌱 深入学习：<b>机器人路径规划算法</b> 及 <b>物联网控制方案</b>。</li>
-          <li>👯 寻求协作：<b>智能机器人、嵌入式物联网</b> 或 <b>计算机视觉</b> 开源项目。</li>
-          <li>🤔 寻求指点：<b>无人驾驶最优路径规划</b> 及 <b>多设备无线组网</b>。</li>
-          <li>💬 欢迎交流：<b>STM32、ROS2、OpenMV/OpenCV</b> 或 <b>通信协议</b>。</li>
+          <li>🔭 <b>致力于：</b>双足轮腿机器人步态算法 及 嵌入式+AI 系统。</li>
+          <li>🌱 <b>深入学习：</b>机器人路径规划算法 及 物联网控制方案。</li>
+          <li>👯 <b>寻求协作：</b>智能机器人、嵌入式物联网 或 CV 开源项目。</li>
+          <li>🤔 <b>研究方向：</b>无人驾驶最优路径规划 及 多设备无线组网。</li>
         </ul>
       </details>
+      
       <br />
-      <h3 align="left">💻 My Projects / 我的项目</h3>
-      <p>
-        <a href="https://github.com/12sqawdwq/fractal_flower"><b>🌸 Fractal Flower</b></a><br/>
-        <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet"><b>🧠 PI-CAI TransUnet</b></a><br/>
-        <a href="https://github.com/12sqawdwq/Augmentation"><b>🔄 Data Augmentation</b></a>
-      </p>
+      <h3>🛠️ Tech Arsenal</h3>
+      <table>
+        <tr>
+          <td align="center" width="100"><b>Embedded<br/>& Robotics</b></td>
+          <td>
+            <img src="https://skillicons.dev/icons?i=c,cpp,linux,ros,raspberrypi,arduino&theme=dark" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center" width="100"><b>AI & Data</b></td>
+          <td>
+            <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,matlab&theme=dark" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center" width="100"><b>Dev Tools<br/>& Web</b></td>
+          <td>
+            <img src="https://skillicons.dev/icons?i=git,docker,cmake,vscode,qt,react,js&theme=dark" />
+          </td>
+        </tr>
+      </table>
     </td>
-    <td width="50%" valign="top" style="border: none;">
-      <h3 align="center">⚡ GitHub Stats</h3>
+    
+    <td width="45%" valign="top" style="border: none; padding-left: 20px;">
+      <h3 align="center">📊 GitHub Stats</h3>
       <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=12sqawdwq&show_icons=true&theme=radical&hide_border=true" alt="Victor's GitHub Stats" width="90%"/>
+        <img src="https://github-readme-stats.vercel.app/api?username=12sqawdwq&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Victor's Stats" width="100%"/>
       </p>
       <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=12sqawdwq&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="90%"/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=12sqawdwq&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" width="100%"/>
       </p>
       <p align="center">
-        <img src="https://streak-stats.demolab.com/?user=12sqawdwq&theme=radical&hide_border=true" alt="GitHub Streak" width="90%"/>
+        <img src="https://streak-stats.demolab.com/?user=12sqawdwq&theme=radical&hide_border=true&fire=EB4888" alt="GitHub Streak" width="100%"/>
       </p>
     </td>
   </tr>
@@ -58,11 +79,18 @@
 
 <br />
 
+### 🏆 Featured Projects
+
+| Project | Description | Tech |
+| :--- | :--- | :--- |
+| <a href="https://github.com/12sqawdwq/fractal_flower"><b>🌸 Fractal Flower</b></a> | A recursive visual art generator exploring mathematical beauty. | `C++` `OpenGL` |
+| <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet"><b>🧠 PI-CAI TransUnet</b></a> | AI model for medical image segmentation (Prostate Cancer). | `Python` `PyTorch` |
+| <a href="https://github.com/12sqawdwq/Augmentation"><b>🔄 Data Augmentation</b></a> | Advanced pipeline for enhancing training datasets. | `Python` `OpenCV` |
+
+<br/>
+
 <div align="center">
-  <h3>🛠️ Tech Stack</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,ros,qt,js,react,nodejs,docker,git,vscode" alt="My Tech Stack"/>
-  </p>
+  <img src="https://github-readme-snake.vercel.app/api?username=12sqawdwq&palette=github-dark&color_snake=a855f7&color_dots=22272e" alt="snake graph" width="100%" />
 </div>
 
 <br />
@@ -70,10 +98,13 @@
 <div align="center">
   <p>
     <a href="mailto:102450592zzy@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me"/>
+      <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://github.com/12sqawdwq">
+      <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
     </a>
   </p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=12sqawdwq&style=flat-square&color=blueviolet" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=12sqawdwq&style=flat-square&color=blueviolet&label=Profile+Views" alt="Profile Views"/>
   </p>
 </div>
