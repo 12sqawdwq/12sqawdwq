@@ -104,6 +104,13 @@
 
 <br />
 
+### WakaTime Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<br />
+
 <div align="center">
   <p>
     <a href="mailto:102450592zzy@gmail.com">

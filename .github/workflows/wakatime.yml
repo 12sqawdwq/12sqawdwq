@@ -5,12 +5,31 @@ on:
   schedule:
     - cron: '0 0 * * *' # 每天北京时间早上8点运行
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - name: Check WakaTime API key
+        id: secret_check
+        shell: bash
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          if [[ -n $WAKATIME_API_KEY ]]; then
+            echo configured=true >> $GITHUB_OUTPUT
+          else
+            echo configured=false >> $GITHUB_OUTPUT
+            echo '::notice title=WakaTime setup incomplete::Add the WAKATIME_API_KEY repository secret to enable stats updates.'
+          fi
+
+      - name: Update README with WakaTime stats
+        if: steps.secret_check.outputs.configured == 'true'
+        uses: anmol098/waka-readme-stats@master
         with:
           # 刚刚在 Secrets 中设置的 Key
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -23,5 +42,3 @@ jobs:
           SHOW_TIMEZONE: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_SHORT_INFO: "False"
-          # 让布局更紧凑
-          LAYOUT: "compact"
