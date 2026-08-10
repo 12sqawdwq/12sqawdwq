@@ -1,123 +1,66 @@
-<h1 align="center">Hi there, I'm Victor 👋</h1>
+# Ziyu Zhao (Victor)
 
-<div align="center">
-  <b>Embedded Systems 🛠️ | AI Robotics 🤖 | Linux 🐧</b>
-  <br/>
-  <br/>
-  <a href="https://github.com/12sqawdwq">
-    <img src="https://img.shields.io/github/followers/12sqawdwq?style=social&label=Follow&logo=github" alt="followers">
-  </a>
-  <a href="https://github.com/12sqawdwq">
-    <img src="https://img.shields.io/github/stars/12sqawdwq?style=social&label=Stars" alt="stars">
-  </a>
-  <br/>
-  <br/>
-  <i>"Building cool things that hopefully don't become self-aware... just yet."</i>
-</div>
+**Undergraduate student exploring engineering software, systems, and scientific computing.**
 
-<hr/>
+I build tools and research prototypes around terminals, simulation, CAD, embedded systems, and AI-assisted development. Most of them start with a specific question or annoyance, usually somewhere between “why is this hidden from me?” and “can I make this less awkward to test?”
 
-<table width="100%" style="border: none;">
-<tr>
-<td width="60%" valign="top" style="border: none;">
-<h3>👨‍💻 About Me</h3>
-<p>I'm a developer exploring the intersection of hardware and intelligence.</p>
+I am particularly interested in systems where **“it ran” is not the same thing as “it worked.”**
 
-<details open>
-<summary>🇬🇧 <b>Brief Introduction</b></summary>
-<br/>
-<ul>
-<li>🔭 <b>Working on:</b> Gait algorithms for bipedal robots & Embedded AI.</li>
-<li>🌱 <b>Learning:</b> Robot pathfinding (SLAM) & IoT control schemes.</li>
-<li>🤔 <b>Researching:</b> Optimal path planning & Wireless mesh networks.</li>
-<li>💬 <b>Ask me about:</b> <br/>
-<code>STM32</code> <code>ROS2</code> <code>OpenCV</code> <code>Comms Protocols</code>
-</li>
-</ul>
-</details>
+## Selected work
 
-<details>
-<summary>🇨🇳 <b>中文介绍 (点击展开)</b></summary>
-<br/>
-<ul>
-<li>🔭 <b>致力于：</b>双足轮腿机器人步态算法 及 嵌入式+AI 系统。</li>
-<li>🌱 <b>深入学习：</b>机器人路径规划算法 及 物联网控制方案。</li>
-<li>👯 <b>寻求协作：</b>智能机器人、嵌入式物联网 或 CV 开源项目。</li>
-<li>🤔 <b>研究方向：</b>无人驾驶最优路径规划 及 多设备无线组网。</li>
-</ul>
-</details>
+### [code-with-pi](https://github.com/12sqawdwq/code-with-pi) · active experiment
 
-<br/>
-<h3>🛠️ Tech Arsenal</h3>
-<b>Embedded & Robotics</b><br/>
-<img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" />
-<img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-<img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
+An experiment in giving a coding agent and its user the same persistent terminal. The current implementation uses a C11 broker, PTY on Linux, ConPTY on Windows, authenticated local IPC, and tmux for the Linux split view.
 
-<br/><br/>
+I started it because command execution inside coding agents often hides shell state, process ownership, and full terminal output.
 
-<b>AI & Data</b><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white" />
+### [ANSYS_skill](https://github.com/12sqawdwq/ANSYS_skill) · experimental
 
-<br/><br/>
+A small CAE validation framework built around a fairly boring but important question: how do we know an automated Mechanical workflow actually produced a solved and evaluated result?
 
-<b>Dev Tools & Web</b><br/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
-<img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-</td>
+It separates geometry-ready, setup-ready, solver-input-generated, and solved/evaluated states, then checks delivery files, result evidence, and a cantilever benchmark.
 
-<td width="40%" valign="top" style="border: none; padding-left: 20px;">
-<h3>📊 Quick Stats</h3>
-<p>
-<img src="https://img.shields.io/github/languages/top/12sqawdwq/fractal_flower?color=blueviolet&style=flat-square&label=Top%20Language" alt="Top Lang" />
-<br/>
-<img src="https://img.shields.io/github/repo-size/12sqawdwq/fractal_flower?style=flat-square&label=Code%20Size&color=orange" alt="Size" />
-<br/>
-<img src="https://img.shields.io/github/last-commit/12sqawdwq/fractal_flower?style=flat-square&label=Last%20Commit&color=green" alt="Last Commit" />
-</p>
-<p>
-<b>Streaks & Goals:</b><br/>
-🔥 Coding works best with consistency.<br/>
-🎯 Focus: <b>Bipedal Locomotion</b>
-</p>
-</td>
-</tr>
-</table>
+### [ForgeSpec-Studio](https://github.com/12sqawdwq/ForgeSpec-Studio) · prototype
 
-<br />
+An experiment in turning loose engineering requirements into inspectable CAD source instead of opaque generated geometry. The intermediate `AssemblySpec` stays visible before deterministic CadQuery code produces STEP and STL files.
 
-### 🏆 Featured Projects
+The repository also experiments with a small standards database, source checks, manifests, and assurance reports.
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| <a href="https://github.com/12sqawdwq/fractal_flower"><b>🌸 Fractal Flower</b></a> | Recursive visual art generator exploring math. | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square) ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square) |
-| <a href="https://github.com/12sqawdwq/PI-CAI_TransUnet"><b>🧠 PI-CAI TransUnet</b></a> | AI model for medical image segmentation. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square) |
-| <a href="https://github.com/12sqawdwq/Augmentation"><b>🔄 Data Augmentation</b></a> | Advanced pipeline for enhancing training datasets. | ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square) |
+### [ANSYS_simulation_IOP](https://github.com/12sqawdwq/ANSYS_simulation_IOP) · research code
 
-<br />
+A finite-element investigation of transpalpebral tonometry. It includes APDL models, parameter sweeps, run manifests, post-processing scripts, mesh-sensitivity checks, and data-provenance notes.
 
-### WakaTime Stats
+Negative results remain visible: the current model is not mesh independent, some parameters are not identifiable from the available sweeps, and a frozen high-pressure fit failed to extrapolate well.
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+### [Harmony_TaskFlow](https://github.com/12sqawdwq/Harmony_TaskFlow) · active prototype
 
-<br />
+A somewhat over-engineered HarmonyOS experiment involving tasks, Calendar OAuth, Cloudflare Workers/D1, deep links, ArkTS, and a multi-ABI native Mihomo core.
 
-<div align="center">
-  <p>
-    <a href="mailto:102450592zzy@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </p>
-  <p>
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F12sqawdwq&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/>
-  </p>
-</div>
+It started as an application project and became a way to explore less documented parts of the HarmonyOS toolchain and its native integration boundaries.
+
+### [CoughKD](https://github.com/12sqawdwq/CoughKD) · research prototype
+
+A medical-audio pipeline for subject-disjoint dataset preparation, PyTorch/CUDA experiments, and teacher–student distillation. Measured runs, planned targets, and clinical claims are kept separate.
+
+## Things I am exploring
+
+- persistent PTYs and process ownership in coding-agent workflows
+- solver state and result evidence in CAE automation
+- source-first, reconstructable CAD generation
+- mesh sensitivity, parameter identifiability, and reproducible simulation
+- HPC experiments and model-scaling workflows
+- embedded and hardware–software boundaries
+
+## A little context
+
+I am a third-year undergraduate heading into my fourth year, studying Microelectronics Science and Technology at Xi'an Jiaotong-Liverpool University. My earlier projects include embedded control, robotics, medical imaging, and constrained-device software.
+
+I use coding agents heavily in day-to-day development. The parts I try to keep explicit are the problem definition, architecture choices, debugging record, experiments, and validation. I am still figuring out which layer I want to spend most of my time in; so far, the answer seems to be somewhere between engineering software, systems tooling, and scientific computing.
+
+Research work includes the [PAD-Former PI-RADS classification paper](https://doi.org/10.1109/BIBM66473.2025.11356522), along with ongoing public experiments in ocular biomechanics and medical-audio model compression.
+
+## Contact
+
+- [GitHub](https://github.com/12sqawdwq)
+- [Personal technical homepage](https://12sqawdwq.github.io/12sqwdwq.github.io/)
+- [Email](mailto:102450592zzy@gmail.com)
