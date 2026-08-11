@@ -62,5 +62,5 @@ Research work includes the [PAD-Former PI-RADS classification paper](https://doi
 ## Contact
 
 - [GitHub](https://github.com/12sqawdwq)
-- [Personal technical homepage](https://12sqawdwq.github.io/12sqwdwq.github.io/)
+- [Personal technical homepage](https://12sqawdwq.github.io/)
 - [Email](mailto:102450592zzy@gmail.com)
