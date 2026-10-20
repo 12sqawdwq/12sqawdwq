@@ -42,6 +42,19 @@ It started as an application project and became a way to explore less documented
 
 A medical-audio pipeline for subject-disjoint dataset preparation, PyTorch/CUDA experiments, and teacher–student distillation. Measured runs, planned targets, and clinical claims are kept separate.
 
+## Experience
+
+- **LanZhi Medical · Shenzhen InnoX Academy** — Embedded & Algorithm Development Intern (Jul 2025 – present). Probe control and eyelid–eyeball FEM for a home-use, eyelid-closed tonometer; within ±2.5 mmHg of the gold standard, three patent applications.
+- **XJTLU Academy of AI · University of Liverpool** — Research Assistant (2024 – present). Prostate MRI AI (ReFER, PAD-Former, EDRF); maintain the group's 16× A800 GPU cluster.
+- **Finkey · Shuangfu Technology (Suzhou)** — Co-founder & Embedded Software Lead (Aug 2025 – present). FIDO2 security key in Rust on Tock OS (nRF52840); 100+ units shipped.
+- **ByteDance · Volcano Engine** — Technical Operations Intern (Dec 2025 – May 2026). LLM benchmarking and agent / AI-coding workflow analysis.
+- **Z.ai (Zhipu AI)** — Campus Ambassador (Aug 2025 – Apr 2026). Talks on vLLM, SGLang and LangChain; Dify campus partnership and agent hackathon.
+- **DeepBlue Technology** — Embedded Software Engineer Intern (Apr 2024 – Jun 2025). Wheeled-biped robot control, SLAM and CAN-linked controllers.
+- **Fudan University** — Research Intern, Intelligent Perception & Autonomous Systems Lab (Jun – Aug 2024). ROS 2 navigation on Jetson NX.
+- **East China Normal University** — Research Intern, Intelligent Ultrasound Research Center (Nov 2023 – May 2024). Multi-channel electrical-stimulation system on STM32/ESP32.
+
+Full details: [CV (PDF)](https://12sqawdwq.github.io/CV_Ziyu_Zhao_final.pdf)
+
 ## Things I am exploring
 
 - persistent PTYs and process ownership in coding-agent workflows
@@ -53,11 +66,11 @@ A medical-audio pipeline for subject-disjoint dataset preparation, PyTorch/CUDA 
 
 ## A little context
 
-I am a third-year undergraduate heading into my fourth year, studying Microelectronics Science and Technology at Xi'an Jiaotong-Liverpool University. My earlier projects include embedded control, robotics, medical imaging, and constrained-device software.
+I am a final-year BEng student in Microelectronic Science and Engineering at Xi'an Jiaotong-Liverpool University and the University of Liverpool (dual degree; First Class averages in Years 1–2). My earlier projects include embedded control, robotics, medical imaging, and constrained-device software.
 
 I use coding agents heavily in day-to-day development. The parts I try to keep explicit are the problem definition, architecture choices, debugging record, experiments, and validation. I am still figuring out which layer I want to spend most of my time in; so far, the answer seems to be somewhere between engineering software, systems tooling, and scientific computing.
 
-Research work includes the [PAD-Former PI-RADS classification paper](https://doi.org/10.1109/BIBM66473.2025.11356522), along with ongoing public experiments in ocular biomechanics and medical-audio model compression.
+Research work includes the [PAD-Former PI-RADS classification paper](https://doi.org/10.1109/BIBM66473.2025.11356522) (IEEE BIBM 2025, first author), ReFER (IEEE BIBM 2026, first author, accepted) and EDRF (IEEE BIBM 2026, second author, accepted), along with ongoing public experiments in ocular biomechanics and medical-audio model compression.
 
 ## Contact
 
